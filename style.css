@@ -1,0 +1,61 @@
+
+html, body {
+	height:100%;
+}
+
+.container {
+	box-shadow:0 0 30px #AAA;
+	min-height:100%;
+}
+
+#banner-wrapper {
+	padding-top:30px;
+}
+
+#banner-info {
+	/**/
+}
+
+#banner-info a, #banner-name a {
+	color:#000;
+	text-decoration:none;
+}
+
+#banner-info .email {
+	color:#00F;
+}
+
+#banner-logos {
+	text-align:right;
+}
+
+#banner-logos img {
+	vertical-align:top;
+}
+
+#banner-logos a {
+	text-decoration:none;
+}
+
+#nav-wrapper a {
+	font-weight:bold;
+	text-decoration:none;
+	color:#444;
+}
+
+#nav-wrapper a:hover {
+	color:#000;
+}
+
+@media only screen and (max-width: 959px) {
+	.container {
+		box-shadow:none;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	#banner-logos, #banner-name, #banner-info, #nav-wrapper {
+		text-align:center;
+	}
+}
+
